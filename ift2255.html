@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <title>Document</title>
+    <style>
+        .wrapper{
+            background-color: #DDD;
+            height: auto;
+            padding-top: 1px;
+        }
+        .container{
+            border:2px solid #7F7F7F;
+            margin-top: 5px;
+            box-shadow: 5px 5px 5px #333;
+        }
+        ul{
+            list-style-type: none;
+
+        }
+        h1{
+           font-family: 'Indie Flower', cursive;
+            text-align: center;
+        }
+        h3{
+            height: 40px;
+            background-color: white;
+            padding-left: 25px;
+            color:#444;
+            line-height: 40px;
+        }
+        .row{
+            padding:5px;
+        }
+        p>span,div>span{
+            font-weight: bold;
+            
+        }
+       
+       
+    
+    
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+           <h1>Devoir 1 IFT2255</h1>
+            <h3>information générale</h3>
+         <div class="row">
+                   <div class="person col-md-4 col-sm-12 well">
+                    <ul>
+                        <li>Nom:Nahnah Abdesselam</li>
+                        <li>Matricule:20060137</li>
+                        <li>Courriel:void94@live.fr</li>
+                        <li>temps mis:40 heures</li>
+                    </ul>
+                    
+                </div>   <div class="person col-md-4 col-sm-12 well">
+                    <ul>
+                        <li>Nom:Benchikh Mourad</li>
+                        <li>Matricule:20034241</li>
+                        <li>Courriel:benchikh.mourad@umontreal.ca</li>
+                        <li>temps mis:40 heures</li>
+                    </ul>
+                    
+                </div>
+                     <div class="person col-md-4 col-sm-12 well">
+                    <ul>
+                        <li>Nom:Drihem Walid</li>
+                        <li>Matricule:1001902</li>
+                        <li>Courriel:udem@gmail.com</li>
+                        <li>temps mis:40 heures</li>
+                    </ul>
+                    
+                </div>
+            </div>
+             <h3>Distribution des tâche:</h3>
+            <strong>soumetteur:</strong><span>Nahnah Abdesselam</span>
+                
+                <table class=" table table-striped table-hover table-bordered">
+                  <thead>
+                          <tr>
+                            <th>Tache</th>
+                            <th>Nahnah</th>
+                            <th>Benchikh</th>
+                            <th>Drihem</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Diagramme de classe</td>
+                            <td>Classes,association,attributs(33%)</td> <td>Classes,association,attributs(33%)</td> <td>Classes,association,attributs(33%)</td>
+                            
+                        </tr>  <tr>
+                            <td>implementation</td>
+                            <td>Gui 30%</td>
+                            <td>Graphic 30%</td>
+                            <td>Gui 30%<td>
+                            
+                        </tr>
+                        
+                    </tbody>
+                    
+                </table>
+                <div class="glossaire">
+                    
+                    <h2>Glossaire</h2>
+                    <ul>
+                        <li>membre</li>
+                        <li>professionnel</li>
+                        <li>agent</li>
+                        <li>centre de donnée</li>
+                        <li>requete</li>
+                        <li>enregistrement</li>
+                        <li>visite</li>
+                        <li>numero unique</li>
+                        <li>code du service</li>
+                        <li>inscription</li>
+                        <li>verification memebre</li>
+                    </ul>
+                </div>
+                
+                <div class="casUtilisation container-fluid">
+                     <h1>Cas D'utilisation Inscription</h1>
+                    <p class="nom"><span>Cas D'utilisation: </span>inscription au centre sportif GYM</p>
+                    <p class="but"><span>But:</span> le client a l'intention de faire une inscription au GYM</p>
+                    <p class="precondition"><span>Preconditions:</span> l'agent doit etre disponible </p>
+                    <p class="acteurs"><span>Acteurs: </span> client,professionnel,agent,centre de données</p>
+                    <div class="scenarios_principal">
+                        <p><span>Scenarios principal: </span></p>
+                        <ul>
+                            <li>1.le client se presente a la reception du centre</li>
+                            <li>2.le client demande a un agent de s'inscrir au centre</li>
+                            <li>3.l'agent demande au client ses informations personnelles</li>
+                            <li>4.l'agent entre les informations personnelles du client sur l'ordinateur</li>
+                            <li>5.le systeme enregistre les informations personnelles du client</li>
+                            <li>6.le systeme cree un nouveau membre</li>
+                            <li>7.le systeme genere un numero unique pour le client</li>
+                            <li>8.le systeme affiche un message a l'agent qui dit que l'inscription est terminer</li>
+                            <li>9.le systeme affiche le numero du membre a l'agent</li>
+                            <li>10.l'agent donne le numero du membre au clien</li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="scenarios_alternatifs">
+                        <p><span> Scénarios alternatifs: </span></p>
+                        <ul>
+                            <li>5a.la requete pour inscrir le client ne passe pas
+                                <ul>
+                                    <li>5a.1.le systeme informe l'agent </li>
+                                    <li> 5a.2.retour a l'etape 3 des scenarios principal</li>
+                                </ul>
+                            </li>
+                        </ul>
+                         
+                    </div>
+                    <div class="postconditions"><span>Postconditions:</span>l'agent est disponible pour les prochains clients</div>
+                    
+                </div>
+                
+                  <div class="casUtilisation container-fluid">
+                     <h1>Cas D'utilisation Visite</h1>
+                    <p class="nom"><span>Cas D'utilisation: </span>memebre fait une visite au GYM</p>
+                    <p class="but"><span>But:</span> le client a l'intention de faire une visite au GYM</p>
+                    <p class="precondition"><span>Preconditions:</span> l'agent doit etre disponible </p>
+                    <p class="acteurs"><span>Acteurs: </span> agent,membre,professionnel</p>
+                    <div class="scenarios_principal">
+                        <p><span>Scenarios principal: </span></p>
+                        <ul>
+                            <li>1.l'agent demande au membre son numero</li>
+                            <li>2.l'agent entre le numero sur l'ordinateur</li>
+                            <li>3.l'agent appelle <span class="underline" style="text-decoration: underline; color: blue;">cu_verificationMembre</span></li>
+                            <li>4.le numero est valider</li>
+                            <li>5.le systeme affiche un message validé sur l'ecran</li>
+                            <li>6.l'agent ouvre le tourniquet du centre </li>
+                            <li>7.le membre accede au centre</li>
+                            
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="scenarios_alternatifs">
+                        <p><span> Scénarios alternatifs: </span></p>
+                        <ul>
+                            <li>4a.le numero est invalide
+                                <ul>
+                                    <li>4a.1. numero invalide est afficher a l'ecran</li>
+                                    <li>4a.2.le systeme retourne a l'etape  1 des scenarios principal </li>
+                                </ul>
+                            </li>
+                        </ul>
+                            <ul>
+                            <li>4b.le memebre est suspendu
+                                <ul>
+                                    <li>4b.1. le mot suspendu est afficher a l'ecran</li>
+                                    <li>4b.2.retoure a l'etape 1 des scenarios principal</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="postconditions"><span>Postconditions: </span>l'agent est disponible pour les prochains clients</div>
+                    
+                </div>
+                  <div class="casUtilisation container-fluid">
+                     <h1>Cas D'utilisation Verification membre</h1>
+                    <p class="nom"><span>Cas D'utilisation:</span>verification d'un membre</p>
+                    <p class="but"><span>But:</span> le centre de donnée fait une verification d'un memebre avec un numero Unique</p>
+                    <p class="precondition"><span>Preconditions:</span> base de donnée fonctionnelle </p>
+                    <p class="acteurs"><span>Acteurs: </span> centre de donnée</p>
+                    <div class="scenarios_principal">
+                        <p><span>Scenarios principal: </span></p>
+                        <ul>
+                            <li>1.le systeme verifie si le numero est valide</li>
+                            <li>2.le systeme envoie une requete a la base donnée du centre pour verifier si le code exist</li>
+                            <li>3.la base de donnée retourne le resultat de la requetes</li>
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="scenarios_alternatifs">
+                        <p><span> Scénarios alternatifs: </span></p>
+                       
+                    </div>
+                    <div class="postconditions"><span>Postconditions: </span>le system reste actif pour les prochaines verification</div>
+                    
+                </div>
+                
+                
+                 <div class="casUtilisation container-fluid">
+                     <h1>Cas D'utilisation donner service</h1>
+                    <p class="nom"><span>Cas D'utilisation: </span>inscription du professionnel a un service</p>
+                    <p class="but"><span>But:</span> le professionnel a l'intention de donner un service </p>
+                    <p class="precondition"><span>Preconditions:</span> l'agent doit etre disponible </p>
+                    <p class="acteurs"><span>Acteurs: </span> agent,professionnel,centre de donnée</p>
+                    <div class="scenarios_principal">
+                        <p><span>Scenarios principal: </span></p>
+                        <ul>
+                            <li>1.appel a  <span class="underline" style="text-decoration: underline ; color: blue">cu_verificationMembre</span></li>
+                            <li>2.le professionnel est deja membre </li>
+                            <li>3.l'agent demande au professionnel si il veut s'inscrir pour donner un service ou consulter les inscriptions</li>
+                            <li>4.le prefessionnel choisi de s'inscrir pour donner un service</li>
+                            <li>5.l'agent envoie les informations necessaire au centre de donnée</li>
+                            <li>6.le systeme cree un enregistrement avec les informations necessaire </li>
+                           
+                            
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="scenarios_alternatifs">
+                        <p><span> Scénarios alternatifs: </span></p>
+                        <ul>
+                            <li>2a.le professionnel n'est pas membre
+                                <ul>
+                                    <li>2a.1.appelle a <span style="text-decoration: underline ;color: blue;">cu_inscription</span></li>
+                                    <li>2a.1.retoure a l'etape 2 des scenarios principal</li>
+                                </ul>
+                            </li>
+                        </ul>  
+                           <ul>
+                            <li>2a.le professionnel choisi de consulter les inscriptions
+                                <ul>
+                                    <li>2a.1.l'agent envoie le code de service au centre de données</li>
+                                    <li>2a.2.le systeme renvoie les informations necessaire </li>
+                                    <li>2a.3.retoure a l'etape 1 des scenarios principal  </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="postconditions"><span>Postconditions: </span> l'agent doit etre disponible pour les prochains client</div>
+                    
+                </div>
+                
+                
+                
+                <div class="casUtilisation container-fluid">
+                     <h1>Cas D'utilisation inscription a une séance</h1>
+                    <p class="nom"><span>Cas D'utilisation: </span>inscription memebre a une seance</p>
+                    <p class="but"><span>But:</span> le membre a l'intention de s'inscrir a une séance </p>
+                    <p class="precondition"><span>Preconditions:</span> l'agent doit etre dispobible </p>
+                    <p class="acteurs"><span>Acteurs: </span> agent,membre,centre de donnée</p>
+                    <div class="scenarios_principal">
+                        <p><span>Scenarios principal: </span></p>
+                        <ul>
+                            <li>1.appelle a <span class="underline" style="text-decoration: underline; color: blue;"> cu_verificationMembre</span> </li>
+                            <li>2.l'agent consulte le repertoire des services</li>
+                            <li>3.l'agent verifie les services offert pour la journée meme</li>
+                            <li>4.le membre selectionne une seance</li>
+                            <li>5.l'agent confirme l'inscription du membre a la seance </li>
+                            <li>6..le systeme cree un enregistrement contenant les informations necéssaire</li>
+                            
+                            
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="scenarios_alternatifs">
+                        <p><span> Scénarios alternatifs: </span></p>
+                        <ul>
+                            <li>4a.le memebre ne selectionne aucune seance
+                                <ul>
+                                    <li>4a.1.retoure a l'etape 1 des scenarios principal</li>
+                                </ul>
+                            </li>
+                        </ul>  
+                           <ul>
+                            <li>5a.il y'a plus de place disponible pour rejoindre la seance
+                                <ul>
+                                    <li>5a.1.l'agent demande au memebre de selectionner une autre seance</li>
+                                    <li>5a.2.retour a l'etape 4 des scenarios principal</li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="postconditions"><span>Postconditions: </span> l'agent doit etre disponible pour les prochains client</div>
+                    
+                </div>
+                
+                
+                 <div class="casUtilisation container-fluid">
+                     <h1>Cas D'utilisation confirmation presence</h1>
+                    <p class="nom"><span>Cas D'utilisation: </span>confirmation de presence</p>
+                    <p class="but"><span>But:</span> le membre a l'intention de confirmer sa presence a une séance </p>
+                    <p class="precondition"><span>Preconditions:</span> l'agent doit etre dispobible </p>
+                    <p class="acteurs"><span>Acteurs: </span>client,professionnel,agent,centre de données</p>
+                    <div class="scenarios_principal">
+                        <p><span>Scenarios principal: </span></p>
+                        <ul>
+                            <li>1.l'agent demande au membre le code du service</li>
+                            <li>2.l'agent entre le code du service dans le systeme </li>
+                            <li> 3.le systeme renvoie les informations necessaire<ul>
+                                <li>3.1.le systeme envoie une requete a la base de donnée </li>
+                            </ul> </li>
+                            <li>4.l'agent demande au membre son code pour confirmer son inscription </li>
+                            <li>5.l'agent entre le code du membre  </li>
+                            <li>6.l'agent envoie un requete au centre de donnée pour confirmer l'inscription</li>
+                            <li>7.le mot validé apparait a l'ecran</li>
+                            <li>8.l'agent autorise le membre a acceder a la seance</li>
+                            
+                            
+                        </ul>
+                        
+                        
+                    </div>
+                    <div class="scenarios_alternatifs">
+                        <p><span> Scénarios alternatifs: </span></p>
+                        <ul>
+                            <li>3a.le code de service incorrecte:
+                                <ul>
+                                    <li>3a.1.retoure a l'etape 1</li>
+                                </ul>
+                            </li>
+                        </ul>  
+                           <ul>
+                            <li>7a.le mot invalide apparait a l'ecran:
+                                <ul>
+                                   <li>7a.1.l'agent refuse l'acces au memebre </li>
+                                    <li>7a.2.le systeme cree un enregistrement sur le disque avec les informations necessaire</li>
+                                    <li>7.a.3.retourne a l'etape 1 des scenarios principal</li>
+                                    
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="postconditions"><span>Postconditions: </span> l'agent doit etre disponible pour les prochains client</div>
+                    
+                </div>
+                
+                <div class="risques">
+                    <h1>Risque</h1>
+                    <h3 style="text-decoration: underline;">risque Severe:</h3>
+                    <p>-<span>Les facteurs du matériel informatique </span> Les contraintes en ressources matérielles
+                        informatiques peuvent avoir des impacts négatifs sur le développement de logiciels. Ils
+                        peuvent comprendre le temps de réponse, le temps d'exécution ou les contraintes en
+                        mémoire, le matériel informatique dans le cas de développement simultané, la volatilité du
+                        system </p>
+                    
+                    <h3 style="text-decoration: underline;"> risque important</h3>
+                    <p style="font-weight: bold;">-L’augmentation des coûts : </p>
+                    <p>-cout lié au travail des ressource de projet  </p>
+                    <p>-cout liés à l’utilisation de consommable </p>
+                    <p>-cout fixe définie au niveau de chaque tache </p>
+                    
+                    <p style="font-weight: bold;">- Le facteur humain</p>
+                    <p>Il est considéré comme étant le facteur crucial affectant la performance du
+                    développement de logiciels. Il peut comprendre la capacité et l'expérience des programmeurs,<br>
+                    l'expérience de l'équipe, la taille de l'équipe de développement, l'organisation de l'équipe de
+                    développement et la qualité de la gestion de l'équipe. </p>
+                    
+                    <h3 style="text-decoration: underline;"> risque Eloigné</h3>
+                    <p>Aptitude : présence et adéquation d’une série de fonctions pour des tâches données</p>
+                    <p>Exactitude : fourniture de résultats ou d’effets justes ou convenus</p>
+                    <p>Interopérabilité : capacité à interagir avec des systèmes donnés</p>
+                    <p>Sécurité : aptitude à empêcher tout accès non autorisé (accidentel ou délibéré) aux programmes et données</p>
+                    
+                </div>
+                <div class="exigances_non_fonctionnel">
+                    <h1>Exigences non fonctionnelles</h1>
+                    <p><span>Fiabilité:</span>le système doit être disponible 24h /7 jour de la semaine </p>
+                    <p><span> Performance:</span>le système doit supporter un grand nombre d’utilisateurs </p>
+                    <p><span> Implantation:</span> les contraintes dans hardware</p>
+                    <p><span> Interface:</span> comment on peut exporter et importer les données dans système  </p>
+                    <p><span> Opération:</span>  qui va gérer le system </p>
+                    
+                    
+                </div>
+                
+            </div>
+            
+            
+            
+            
+            </div>
+        
+        
+        
+        
+    
+    
+</body>
+</html>
